@@ -1,47 +1,28 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Built application files
+/*/build/
+build
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
 
-# Folder config file
-Desktop.ini
+# Local configuration file (sdk path, etc)
+local.properties
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Gradle generated files
+.gradle/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Signing files
+.signing/
 
-# Windows shortcuts
-*.lnk
+# User-specific configurations
+.idea
+*.iml
+*.iws
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS-specific files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+ehthumbs.db
+Thumbs.db
